@@ -1,0 +1,13 @@
+.custom_form_label{
+    width:30%;
+}
+
+.custom_email_container{
+    display: flex;
+    align-items: baseline;
+}
+
+.custom_row{
+    display: flex;
+    align-items: baseline;
+}

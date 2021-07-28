@@ -1,0 +1,16 @@
+<div class="container" *ngIf="list">
+ 
+<div class="row" >
+    <div class="col-md-3 col-lg-4 col-sm-4 colxs-12 mb-3" *ngFor="let user of list" >
+        <div  class="card "  style="width: 18rem;">
+            <img src="{{user.avatar_url}}" class="card-img-top" alt="...">
+            <div class="card-body">
+      
+              <h3>{{user.login}} <span class="badge bg-secondary">{{user.type}}</span></h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="{{user.html_url}}" class="btn btn-primary" target="_blank">View on Github</a>
+            </div>
+          </div>
+    </div>
+</div>
+</div> 
